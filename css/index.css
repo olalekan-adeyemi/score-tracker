@@ -1,0 +1,41 @@
+body, ul, li, * {padding:0; margin:0; box-sizing: border-box;}
+.container {margin: 80px auto;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+body {background-color: #352f5b;}
+
+header {margin-bottom: 20px;}
+header h1, p{color: #ffffff;}
+
+.scores { list-style: none;}
+.scores li {padding: 15px;background:#423a6f;}
+.scores li a {color: #ffffff;text-decoration: none;}
+.mx-auto {margin-right:auto;margin-left: auto;}
+.text-light {
+    color: #f8f9fa!important;
+}
+.list-group {
+    display: flex;
+    width:100%;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.list-group-item {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1.25rem;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.student-name {padding-right:40px;}
+.student-score {padding-right:40px;}
+.increase, .decrease {padding:0 10px;}
